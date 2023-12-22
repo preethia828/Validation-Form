@@ -1,0 +1,43 @@
+body {
+  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container {
+  background: #fff;
+  width: 100%;
+  max-width: 700px;
+  height: 45%;
+  border: 0px solid;
+  border-radius: 6px;
+}
+.header {
+  display: flex;
+  justify-content: center;
+}
+.fields-block {
+  width: 57%;
+  margin: auto;
+  display: flex;
+}
+.name-field {
+}
+.field-button {
+  margin-top: 28px;
+}
+#button-id {
+  background: cadetblue;
+  border: 0px solid;
+  border-radius: 4px;
+  height: 25px;
+  font-family: cursive;
+}
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  margin: 0;
+}
