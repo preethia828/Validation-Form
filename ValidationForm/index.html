@@ -15,12 +15,12 @@
         <div class="field1">
             <div class="name-field">
                 <label for="">Name</label>
-                <input type="text" id="username">
+                <input type="text" id="username" id="input-card">
             </div>
             <p id="demo"></p>
             <div class="password-feiild">
                 <label for="">Password</label>
-                <input type="text" id="password">
+                <input type="text" id="password" id="input-card">
             </div>
             <p id="demo1"></p>
             <div class="field-button">
@@ -30,12 +30,12 @@
         <div class="field2">
             <div class="email-feild">
                 <label for="">Email</label>
-                <input type="text" id="email">
+                <input type="text" id="email" id="input-card">
             </div>
             <p id="demo2"></p>
             <div class="phone-feild">
                 <label for="">Phone</label>
-                <input type="number" id="phone" >
+                <input type="number" id="phone" id="input-card" >
             </div>
             <p id="demo3"></p>
         </div>
@@ -85,6 +85,7 @@
                 }
                 if(!hasError){
                     alert("successfully login");
+                    window.location.href='sucess.html'
                 }
             } 
     </script>

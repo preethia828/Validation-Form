@@ -1,12 +1,12 @@
 body {
-  background: linear-gradient(135deg, #71b7e6, #9b59b6);
+  background: linear-gradient(135deg, #e6de71, #9b59b6);
   height: 100vh;
   display: flex;
   justify-content: center;
   align-items: center;
 }
 .container {
-  background: #fff;
+  background-image: url(painting-mountain-lake-with-mountain-background_188544-9126.avif);
   width: 100%;
   max-width: 700px;
   height: 45%;
@@ -16,16 +16,36 @@ body {
 .header {
   display: flex;
   justify-content: center;
+  margin-top: 20px;
 }
 .fields-block {
-  width: 57%;
-  margin: auto;
   display: flex;
+  justify-content: space-evenly;
+  margin-top: 30px;
 }
-.name-field {
+label {
+  margin-right: 10px;
+  color: beige;
+}
+.name-field,
+.password-feiild,
+.email-feild,
+.phone-feild {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 35px;
+}
+#username,
+#password,
+#email,
+#phone {
+  border: 1px solid #a2a2a2 !important;
+  height: 25px;
+  border-radius: 6px;
 }
 .field-button {
   margin-top: 28px;
+  margin-left: 75px;
 }
 #button-id {
   background: cadetblue;
